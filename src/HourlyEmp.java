@@ -2,7 +2,7 @@ public class HourlyEmp extends Employee {
     private double hours;
     private double hourlyRate;
 
-    //Comstructor for HOURLY EMPLOYEE
+    //Comstructor for HOURLY EMPLOYEE this is the default constructor
     public HourlyEmp(String name, String role, int yearsOfService, double taxPercent, double hours, double hourlyRate) {
         super(name, role, yearsOfService, taxPercent);
         setHours(hours);
